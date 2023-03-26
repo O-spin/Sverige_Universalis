@@ -1,7 +1,7 @@
 owner = A03
 base_tax = 9
-base_manpower = 10
-base_production = 10
+base_manpower = 8
+base_production = 8
 culture = danish
 trade_goods = grain
 religion = catholic
