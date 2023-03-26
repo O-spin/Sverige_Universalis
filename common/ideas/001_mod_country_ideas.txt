@@ -1013,7 +1013,7 @@ a24_ideas = {
         leader_land_manuever = 1
     }
 
-    a24_gota_canal = {
+    a24_internationell_handel = {
         global_ship_trade_power = 0.20
         naval_maintenance_modifier = -0.10
     }
@@ -1036,4 +1036,53 @@ a24_ideas = {
         devotion = 1
 	legitimacy = 1
     }
+}
+
+a25_ideas = { #Småland
+	start = {
+		global_spy_defence = 0.25
+		global_tax_modifier = 0.3
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+
+	trigger = {
+		tag = A25
+	}
+	free = yes
+	
+	a25_kronobergs_slottsruin = {
+		defensiveness = 0.15
+	}
+	
+	a25_kalmar_av_union = {
+		liberty_desire = -0.2
+	}
+
+	a25_runkestenar = {
+		development_cost = 0.1
+		diplomatic_reputation = 1
+	}
+	
+	a25_smalands_husarregemente = {
+		cavalry_power = 0.3
+		can_recruit_hussars = yes
+	}
+
+	a25_emigrantutvandringen = {
+		development_cost = -0.2
+	}
+
+	a25_john_bauer = {
+		prestige = 1
+	}
+
+	a25_snala_handelsman = {
+		trade_efficiency = 0.5
+		improve_relation_modifier = -0.1
+		ae_impact = 0.1
+	}
+
 }
