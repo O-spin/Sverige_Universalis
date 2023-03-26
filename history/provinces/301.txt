@@ -1,0 +1,12 @@
+base_tax = 3
+base_manpower = 3
+base_production = 4
+culture = swedish
+trade_goods = naval_supplies
+religion = catholic
+is_city = no
+owner = A26
+controller = A26
+add_core = A26
+discovered_by = western
+hre = yes

@@ -1,0 +1,12 @@
+owner = A03
+base_tax = 4
+base_manpower = 4
+base_production = 1
+culture = danish
+trade_goods = grain
+religion = catholic
+controller = A03
+is_city = no
+hre = yes
+add_core = A03
+discovered_by = western

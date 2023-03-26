@@ -1,0 +1,1039 @@
+A01_ideas = { #Lappland
+	start = {
+		cavalry_power = 0.10
+		global_manpower_modifier = 0.3
+	}
+
+	bonus = {
+		global_missionary_strength = 0.01
+	}
+	
+	trigger = {
+		tag = A01
+	}
+	free = yes		#
+	
+	a01_artistic_landscape = {
+		prestige = 1
+	}
+	a01_sapmi_taxation = {
+		global_tax_modifier = 0.10
+	}
+	a01_regulate_trade = {
+		merchants = 1
+	}
+	a01_encourage_growth_of_the_winter_market = {
+		global_prov_trade_power_modifier = 0.1
+	}
+	a01_defend_noaidi_traditions = {
+		tolerance_own = 2
+	}
+	a01_living_of_the_land = {
+		land_attrition = -0.1
+	}
+	a01_mountains_of_metal = {
+		global_trade_goods_size_modifier = 0.1
+	}
+}
+
+SMI_ideas = {
+	start = {
+		production_efficiency = 0.2
+		manpower_in_own_culture_provinces = 0.6
+	}
+
+	bonus = {
+		same_culture_advisor_cost = -0.3
+	}
+	
+	trigger = {
+		tag = SMI
+	}
+	free = yes		#
+	
+	smi_land_of_the_midnight_sun = {
+		hostile_attrition = 3
+	}
+	smi_protect_the_herds = {
+		defensiveness = 0.20
+	}
+	smi_regulate_southern_trade = {
+		merchants = 1
+	}
+	smi_encourage_growth_of_the_winter_market = {
+		global_prov_trade_power_modifier = 0.1
+	}
+	smi_defend_noaidi_traditions = {
+		culture_conversion_cost = -0.25
+	}
+	smi_living_of_the_land = {
+		land_attrition = -0.1
+	}
+	smi_standardized_literary_language = {
+		build_cost = -0.1
+		build_time = -0.1
+	}
+}
+
+A02_ideas = { # blekinge
+	start = {
+		navy_tradition = 1
+		land_attrition = -0.1
+	}
+
+	bonus = {
+		development_cost = -0.1
+	}
+	
+	trigger = {
+		tag = A02
+	}
+	free = yes		#
+	
+	a02_garden_of_sweden = {
+		prestige = 0.5
+		diplomatic_reputation = 1
+	}
+	a02_danish_mingling = {
+		diplomats = 1
+	}
+	a02_bulwark = {
+		rival_border_fort_maintenance = -0.4
+	}
+	a02_mild_winters = {
+		production_efficiency = 0.10
+	}
+	a02_food_surplus = {
+		land_forcelimit_modifier = 0.15
+	}
+	a02_gustaf_wachtmeister_prussian_influence = {
+		army_tradition = 0.5
+		infantry_power = 0.1
+	}
+	a02_isfria_hamnar = {
+		naval_forcelimit_modifier = 0.2
+	}
+}
+
+A03_ideas = { # skåne
+	start = {
+		global_trade_goods_size_modifier = 0.10
+		galley_power = 0.1
+	}
+
+	bonus = {
+		development_cost = -0.1
+	}
+	
+	trigger = {
+		tag = A03
+	}
+	free = yes		#
+	
+	a03_danish_trading = {
+		trade_efficiency = 0.15
+	}
+	a03_legacy_of_kalmar_union = {
+		diplomatic_annexation_cost = -0.25
+	}
+	a03_danish_mercenaries = {
+		mercenary_discipline = 0.1
+		shock_damage = 0.10
+	}
+	a03_sound_benefits = {
+		global_own_trade_power = 0.25
+	}
+	a03_the_granary_of_sweden = {
+		land_forcelimit_modifier = 0.3
+	}
+	a03_university_of_lund = {
+		technology_cost = -0.05
+	}
+	a03_skansk_stroming = {
+		global_sailors_modifier = 0.2
+	}
+}
+A04_ideas = { # halland
+	start = {
+		navy_tradition = 2
+		naval_forcelimit_modifier = 0.15
+	}
+
+	bonus = {
+		development_cost = -0.1
+	}
+	
+	trigger = {
+		tag = A04
+	}
+	free = yes		#
+	
+	a04_free_reigns_of_the_nobility = {
+		global_tax_modifier = 0.10
+		all_estate_influence_modifier = 0.20
+	}
+	a04_repressed_peasantry = {
+		manpower_recovery_speed = 0.20
+		global_unrest = 1
+	}
+	a04_coastal_warfare = {
+		galley_power = 0.15
+	}
+	a04_the_Thott_knights = {
+		land_morale = 0.20
+	}
+	a04_double_cities = {
+		build_cost = -0.15
+	}
+	a04_iron_plough = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	a04_reigned_in_the_estates = {
+		max_absolutism = 5
+		allow_free_estate_privilege_revocation = yes
+		all_estate_influence_modifier = -0.15
+	}
+}
+
+A05_ideas = { # västergötland
+	start = {
+		infantry_power = 0.1
+		embracement_cost = -0.2
+	}
+
+	bonus = {
+		global_manpower_modifier = 0.1
+	}
+	
+	trigger = {
+		tag = A05
+	}
+	free = yes		#
+	
+	a05_Engelbrekt_rebellion = {
+		infantry_cost = -0.30
+	}
+	a05_burning_of_Lodose = {
+		unjustified_demands = -0.15
+	}
+	a05_black_and_gold_lion = {
+		fire_damage = 0.1
+	}
+	a05_nya_lodose = {
+		build_time = -0.2
+		interest = -0.5
+	}
+	a05_ostindiska_kompaniet = {
+		global_ship_trade_power = 0.3
+	}
+	a05_vastergotlands_storregemente = {
+		land_forcelimit_modifier = 0.25
+	}
+	a05_gota_kanal = {
+		trade_efficiency = 0.2
+	}
+}
+
+A07_ideas = { # bohuslän
+	start = {
+		privateer_efficiency = 0.25
+		own_coast_naval_combat_bonus = 1
+	}
+
+	bonus = {
+		interest = -1
+	}
+	
+	trigger = {
+		tag = A07
+	}
+	free = yes		#
+	
+	a07_norweigan_bread_basket = {
+		production_efficiency = 0.1
+	}
+	a07_bohus_fastning = {
+		defensiveness = 0.15
+	}
+	a07_skargarden = {
+		galley_power = 0.1
+	}
+	a07_deforested_islands = {
+		build_cost = 0.2
+		admiral_skill_gain_modifier = 0.3
+	}
+	a07_ostindiska_kompaniet = {
+		global_ship_trade_power = 0.3
+	}
+	a07_bohus_pirater = {
+		infantry_shock = 1
+		artillery_fire = -0.5
+	}
+	a07_willingness_to_serve = {
+		reinforce_speed = 0.2
+	}
+}
+
+A08_ideas = { # dalsland
+	start = {
+		movement_speed = 0.15
+		reinforce_speed = 0.15
+	}
+
+	bonus = {
+		global_regiment_recruit_speed = -0.3
+	}
+	
+	trigger = {
+		tag = A08
+	}
+	free = yes		#
+	
+	a08_harda_bud_i_mellerud = {
+		power_projection_from_insults = 2
+	}
+	a08_land_av_vattendrag = {
+		development_cost = -0.05
+		global_trade_goods_size_modifier = 0.1
+	}
+	a08_papersmassa = {
+		global_institution_spread = 0.5
+	}
+	a08_forgatmigej = {
+		yearly_corruption = -0.1
+	}
+	a08_encouraged_fishing = {
+		production_efficiency = 0.1
+	}
+	a08_oral_tradition = {
+		prestige = 1
+	}
+	a08_dalregementet = {
+		discipline = 0.05
+	}
+}
+
+A09_ideas = { # värmland
+	start = {
+		production_efficiency = 0.1
+		hostile_attrition = 1
+	}
+
+	bonus = {
+		vassal_forcelimit_bonus = 0.75
+	}
+	
+	trigger = {
+		tag = A09
+	}
+	free = yes		#
+	
+	a09_gota_svea_grans = {
+		defensiveness = 0.15
+	}
+	a09_varmt_blod = {
+		land_morale = 0.1
+	}
+	a09_narke_varmlands_regemente = {
+		infantry_fire = 0.2
+	}
+	a09_skogsstajrna = {
+		global_rebel_suppression_efficiency = 0.2
+	}
+	a09_vanern = {
+		trade_efficiency = 0.1
+	}
+	a09_progressive_state = {
+		reform_progress_growth = 1
+	}
+	a09_friendliness = {
+		diplomatic_reputation = 2
+	}
+}
+
+A10_ideas = { # dalarna
+	start = {
+		infantry_power = 0.15
+		envoy_travel_time = -0.15
+	}
+
+	bonus = {
+		land_morale = 0.1
+	}
+	
+	trigger = {
+		tag = A10
+	}
+	free = yes		#
+	
+	a10_kurbits = {
+		prestige = 1
+	}
+	a10_the_dalecarlian_rebellions = {
+		global_unrest = 3
+		capped_by_forcelimit = yes
+		discipline = 0.1
+	}
+	a10_falu_koppargruva = {
+		artillery_cost = -0.4
+	}
+	a10_laderexpertis = {
+		shock_damage_received = -0.1
+	}
+	a10_oxslakt = {
+		production_efficiency = 0.1
+	}
+	a10_siljan = {
+		manpower_in_own_culture_provinces = 0.3
+	}
+	a10_dalahasten = {
+		global_own_trade_power = 0.1
+	}
+}
+A11_ideas = { # härjedalen
+	start = {
+		diplomatic_reputation = 3
+		diplomats = 1
+	}
+
+	bonus = {
+		attack_bonus_in_capital_terrain = yes
+	}
+	
+	trigger = {
+		tag = A11
+	}
+	free = yes		#
+	
+	a11_lilla_norge = {
+		global_sailors_modifier = 0.15
+		ship_durability = 0.1
+	}
+	a11_haxjakt = {
+		global_unrest = -2
+	}
+	a11_sydsamer = {
+		production_efficiency = 0.1
+	}
+	a11_experienced_weaponsmiths = {
+		infantry_power = 0.1
+	}
+	a11_glesbefolkat = {
+		build_cost = 0.4
+		development_cost = 0.4
+	}
+	a11_repelled_invaders = {
+		defensiveness = 0.2
+	}
+	a11_capital_flourishing_metropole = {
+		global_trade_goods_size_modifier = 0.1
+		local_development_cost_modifier = -0.65
+	}
+}
+
+A12_ideas = { # Jämtland
+	start = {
+		land_morale = 0.15
+	}
+	
+	bonus = {
+		trade_efficiency = 0.1
+	}
+
+	trigger = {
+		tag = A12
+	}
+	free = yes
+	
+	A12_harsh_climate = {
+		global_attrition = -0.1
+		supply_limit_modifier = 0.2
+	}
+	
+	A12_sameminoritet = {
+		production_efficiency = 0.1
+	}
+	
+	A12_bergsman = {
+		build_cost = -0.1
+	}
+	
+	A12_jamtlands_faltjagarregemente = {
+		land_attrition = -0.1
+		infantry_power = 0.1
+	}
+	
+	A12_fornminnesriket = {
+		technology_cost = -0.05
+	}
+	
+	A12_jamtlandsbanken = {
+		interest = -0.5
+	}
+	
+	A12_brunkullan = {
+		yearly_army_professionalism = 0.01
+	}
+}
+
+# Norrbotten Ideas
+A13_ideas = {
+	start = {
+		global_trade_power = 0.10
+		culture_conversion_cost = -0.25
+	}
+
+	bonus = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	trigger = {
+		tag = A13
+	}
+
+	free = yes
+
+	a13_finnish_ties = {
+		diplomatic_reputation = 1
+		num_accepted_cultures = 1
+	}
+	
+	a13_tornedalen = {
+		stability_cost_modifier = -0.15
+	}
+	
+	a13_finlandsvenskar = {
+		global_manpower_modifier = 0.25
+	}
+	
+	a13_akerbar = {
+		global_trade_goods_size_modifier = 0.10
+		production_efficiency = 0.10
+	}
+	
+	a13_norrbotten_regemente = {
+		cavalry_power = 0.20
+	}
+	
+	a13_forest_industries = {
+		build_time = -0.15
+		build_cost = -0.10
+	}
+	
+	a13_sami_connections = {
+		development_cost = -0.10
+		advisor_pool = 1
+	}
+}
+
+# Västerbotten ideas
+A14_ideas = {
+	start = {
+		inflation_reduction = 0.1
+		global_institution_spread = 0.1
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+
+	trigger = {
+		tag = A14
+	}
+	free = yes
+
+	a14_umea_university = {
+		technology_cost = -0.05
+	}
+	a14_rivers_of_vasterbotten = {
+		prestige = 1
+	}
+	a14_kung_karls_spira = {
+		land_morale = 0.15
+	}
+	a14_deforestation = {
+		development_cost = -0.1
+	}
+	a14_river_transportation = {
+		global_ship_trade_power = 0.25
+		transport_cost = -0.25
+	}
+	a14_vasterbotten_regemente = {
+		backrow_artillery_damage = 0.1
+	}
+
+	a14_forested_landscapes = {
+		defensiveness = 0.15
+		land_attrition = -0.1
+	}
+}
+
+A15_ideas = { # Ångermanland
+    start = {
+        ae_impact = -0.1
+		mercenary_discipline = 0.1
+    }
+
+    bonus = {
+        core_creation = -0.1
+    }
+
+    trigger = {
+        tag = A15
+    }
+    free = yes
+
+    a15_linodling = {
+        global_trade_goods_size_modifier = 0.15
+        production_efficiency = 0.1
+    }
+	a15_adalens_fabriker = {
+		production_efficiency = 0.1
+		build_time = -0.1
+	}
+    a15_draftable_peasants = {
+        manpower_recovery_speed = 0.1
+    }
+    a15_sjofarten = {
+        global_trade_power = 0.1
+    }
+	a15_rike_och_fiske = {
+		naval_forcelimit_modifier = 0.25
+	}
+    a15_early_adopters = {
+        idea_cost=-0.1
+    }
+	a15_elitforband = {
+		discipline = 0.05
+	}
+}
+
+A16_ideas = { # Medelpad
+	start = {
+		development_cost = -0.05
+		advisor_cost = -0.1
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+
+	trigger = {
+		tag = A16
+	}
+
+	free = yes
+
+	a16_ljungan = {
+		production_efficiency = 0.1
+	}
+
+	a16_skogshare = {
+		movement_speed = 0.1
+	}
+
+	a16_jamtlands_faltjagarregemente = {
+		land_attrition = -0.1
+		infantry_power = 0.1
+	}
+
+	a16_diplomatic_supremacy = {
+		diplomats = 1
+	}
+
+	a16_jarnhantering = {
+		global_trade_goods_size_modifier = 0.1
+	}
+
+	a16_gran = {
+		global_tax_modifier = 0.2
+	}
+
+	a16_sundsvallsbranden = {
+		build_cost = -0.2
+	}
+}
+
+A17_ideas = { #Hälsingland
+	start = {
+		trade_efficiency = 0.10
+		diplomatic_reputation = 1
+	}
+
+	bonus = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	
+	trigger = {
+		tag = A17
+	}
+	free = yes
+	
+	a17_halsinge_kurbits = {
+		build_cost = -0.15
+	}
+	a17_ambitions_for_conquest = {
+		core_creation = -0.1
+	}
+	a17_halsinge_horses = {
+		cavalry_power = 0.15
+		cavalry_cost = -0.1
+	}
+	a17_halsinge_textiles = {
+		production_efficiency = 0.10
+		global_trade_goods_size_modifier = 0.05
+	}
+	a17_friends_in_high_places = {
+		improve_relation_modifier = 0.15
+	}
+	a17_unbreakable_spirit = {
+		global_manpower_modifier = 0.2
+	}
+	a17_halsinge_folkmusik = {
+		prestige = 1
+	}
+}
+
+A18_ideas = { #Gästrikland
+	start = {
+		artillery_cost = -0.10
+		global_spy_defence = 0.1
+	}
+
+	bonus = {
+		global_manpower_modifier = 0.10
+	}
+
+	trigger = {
+		tag = A18
+	}
+	free = yes
+	
+	a18_iron_production = {
+		production_efficiency = 0.10
+		global_trade_goods_size_modifier = 0.1
+	}
+
+	a18_weapon_production = {
+		infantry_power = 0.1
+		cavalry_power = 0.1
+		artillery_power = 0.1
+	}
+
+	a18_gavlebocken = {
+		fire_damage = 0.15
+	}
+
+	a18_gavle_trade_hub = {
+		global_trade_power = 0.15
+		merchants = 1
+	}
+
+	a18_militart_fokuserat_utbildningssystem = {
+		army_tradition = 1
+		navy_tradition = 1
+	}
+
+	a18_militar_traning = {
+		land_morale = 0.10
+	}
+	
+	a18_krigsbefalhavare = {
+		army_tradition_decay = -0.02
+	}
+
+}
+
+A19_ideas = { #Uppland
+    start = {
+        global_trade_power = 0.1
+        trade_efficiency = 0.1
+    }
+
+    bonus = {
+        yearly_legitimacy = 1
+    }
+
+    trigger = {
+        tag = A19
+    }
+
+    free = yes
+
+    a19_grund_for_svea_civilisation = {
+        diplomatic_reputation = 2
+    }	
+
+    a19_batbyggare = {
+        ship_durability = 0.1
+        naval_maintenance_modifier = -0.1
+    }
+
+    a19_jarnsmaltningstradition = {
+        production_efficiency = 0.15
+    }
+
+    a19_upplands_regemente = {
+        manpower_recovery_speed = 0.1
+        infantry_power = 0.2
+    }
+
+    a19_sjofarare_i_osterled = {
+        global_naval_engagement_modifier = 0.1
+        naval_forcelimit_modifier = 0.1
+    }
+
+    a19_uppland_runstenar = {
+        prestige = 1
+		missionaries = 1
+    }
+
+    a19_uppsala_universitet = {
+        tolerance_heretic = 3
+		idea_cost = 0.05
+    }
+
+}
+
+A20_ideas = { #Stockholm
+	start = {
+		core_creation = -0.10
+		global_tax_modifier = 0.10
+	}
+
+	bonus = {
+		land_morale = 0.15
+	}
+
+	trigger = {
+		tag = A20
+	}
+	free = yes
+	
+	a20_nobel_priset = {
+		diplomatic_reputation = 1
+	}
+
+	a20_kung_och_riksdag = {
+		legitimacy = 1
+		possible_policy = 1
+	}
+
+	a20_vasa_shipyard = {
+		navy_tradition = 1
+		ship_durability = 0.10
+	}
+
+	a20_defenders_of_the_capital = {
+		fort_maintenance_modifier = -0.25
+	}
+
+	a20_stockholm_syndrome = {
+		power_projection_from_insults = 0.2
+		improve_relation_modifier = 0.3
+	}
+
+	a20_royal_dramatic_theatre = {
+		advisor_cost = -0.15
+	}
+
+	a20_snobbighet = {
+		monarch_lifespan = 0.1
+		monarch_admin_power = 1
+		monarch_diplomatic_power = 1
+		monarch_military_power = -1
+	}
+}
+
+A21_ideas = { #västmanland
+	start = {
+		monthly_reform_progress_modifier = 0.15
+		legitimacy = 1
+	}
+
+	bonus = {
+		governing_capacity_modifier = 0.1
+	}
+
+	trigger = {
+		tag = A21
+	}
+	free = yes
+	
+	a21_sala_silvergruva = {
+		inflation_reduction = 0.1
+	}
+
+	a21_ironworking_industry = {
+		production_efficiency = 0.1
+	}
+
+	a21_malardalen = {
+		global_monthly_devastation = -0.1
+	}
+
+	a21_memorable_excellence = {
+		prestige_decay = -0.02
+	}
+
+	a21_great_carolean_charge = {
+		shock_damage = 0.1
+	}
+
+	a21_absolute_state = {
+		max_absolutism = 10
+		yearly_absolutism = 0.5
+	}
+
+	a21_industrial_excellence = {
+		allowed_num_of_manufactories = 1
+	}
+}
+
+A22_ideas = {  #Närke
+    start = {
+        administrative_efficiency = 0.025
+        vassal_forcelimit_bonus = 0.25
+    }
+    
+    bonus = {
+        manpower_recovery_speed = 0.10
+    }
+
+    trigger = {
+        tag = A22
+    }
+    free = yes
+
+    a22_broadening_officer_recruitment = {
+        may_recruit_female_generals = yes
+	army_tradition = 0.5
+    }
+
+    a22_narke_varmlands_regemente = {
+        land_maintenance_modifier = -0.10
+        global_manpower_modifier = 0.05
+    }
+
+    a22_narkes_kurbits = {
+        papal_influence = 0.50
+        technology_cost = -0.05
+    }
+
+    a22_huldran = {
+        hostile_attrition = 1
+    }
+
+    a22_orebro_slott = {
+        defensiveness = 0.2
+    }
+
+    a22_incorruptible = {
+        yearly_corruption = -0.2
+    }
+
+    a22_orebro_Canal = {
+        global_ship_trade_power = 0.20
+        center_of_trade_upgrade_cost = -0.2
+    }
+
+}
+
+a23_ideas = {
+    start = {
+        tolerance_of_heathens_capacity = 3
+        governing_capacity_modifier = 0.15
+    }
+
+    bonus = {
+        possible_policy = 1
+    }
+
+    trigger = {
+        tag = A23
+    }
+
+    free = yes
+
+    a23_riches_of_the_capital = {
+        global_trade_power = 0.20
+    }
+
+    a23_oxelosund_lotsstation = {
+        allowed_marine_fraction = 0.2
+		sailors_recovery_speed = 0.15
+    }
+
+    a23_sodermanlands_Regemente = {
+        global_manpower_modifier = 0.10
+        land_morale = 0.10
+    }
+
+    a23_Legacy_of_Birka = {
+        global_naval_engagement_modifier = 0.2
+    }
+
+    a23_nykopingshus = {
+        defensiveness = 0.10
+        global_autonomy = -0.05
+    }
+
+    a23_Sormlandsleden = {
+        global_supply_limit_modifier = 0.20
+    }
+
+    a23_Drottningholm_Palace = {
+        diplomats = 1
+		improve_relation_modifier = 0.05
+    }
+}
+
+a24_ideas = {
+    start = { # Östergötland
+        prestige_from_land = 2
+        monthly_reform_progress = 0.2
+    }
+
+    bonus = {
+        leader_land_fire = 1
+    }
+
+    trigger = {
+        tag = A24
+    }
+
+    free = yes
+
+    a24_linkoping_universitet = {
+        technology_cost = -0.1
+    }
+
+    a24_ostergotlands_storregemente = {
+        army_tradition = 1
+        leader_land_manuever = 1
+    }
+
+    a24_gota_canal = {
+        global_ship_trade_power = 0.20
+        naval_maintenance_modifier = -0.10
+    }
+
+    a24_slaget_vid_stangebro = {
+        manpower_recovery_speed = 0.20
+    }
+
+    a24_skanninge_marken = {
+        global_trade_goods_size_modifier = 0.20
+        global_province_trade_power_modifier = 0.10
+    }
+
+    a24_Vadstena_Castle = {
+        defensiveness = 0.2
+        fort_maintenance_modifier = -0.25
+    }
+	
+    a24_Medevi_Brunn = {
+        devotion = 1
+	legitimacy = 1
+    }
+}

@@ -1,0 +1,12 @@
+owner = A22
+base_tax = 2
+base_manpower = 2
+base_production = 1
+culture = swedish
+trade_goods = iron
+religion = catholic
+controller = A22
+is_city = no
+add_core = A22
+discovered_by = western
+hre = yes

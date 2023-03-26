@@ -1,0 +1,14 @@
+owner = A25
+base_tax = 5
+base_manpower = 2
+base_production = 7
+culture = swedish
+trade_goods = wool
+religion = catholic
+controller = A25
+is_city = no
+center_of_trade = 1
+hre = yes
+add_core = A25
+discovered_by = western
+fort_15th = yes

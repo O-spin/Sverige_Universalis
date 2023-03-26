@@ -1,0 +1,13 @@
+owner = A23
+base_tax = 4
+base_manpower = 2
+base_production = 3
+culture = swedish
+trade_goods = grain
+religion = catholic
+controller = A23
+is_city = no
+hre = yes
+add_core = A23
+discovered_by = western
+fort_15th = yes

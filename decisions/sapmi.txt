@@ -1,0 +1,99 @@
+country_decisions ={
+	sapmi_nation = {
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = {tag = SMI}
+			primary_culture = sapmi
+			}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 11
+				province_id = 15
+				province_id = 16
+				province_id = 20
+				province_id = 21
+				province_id = 22
+				province_id = 23
+				province_id = 25
+				province_id = 29
+				province_id = 39
+				area = lappland_area
+				area = jamtland_area
+				area = harjedalen_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = SMI }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 11
+			owns_core_province = 15
+			owns_core_province = 16
+			owns_core_province = 20
+			owns_core_province = 21
+			owns_core_province = 22
+			owns_core_province = 23
+			owns_core_province = 25
+			owns_core_province = 29
+			owns_core_province = 39
+			owns_core_province = 52
+			sodra_lappland_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				culture = sapmi
+				type = all	
+			}
+			norra_lappland_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				culture = sapmi
+				type = all	
+			}
+			jamtland_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			change_tag = SMI
+			if = {
+				limit = { government_rank = 1 }
+				set_government_rank = 2
+			}
+			set_capital = 9
+			ovre_norrland_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = SMI
+			}
+			nedre_norrland_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = SMI
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = SMI_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+}

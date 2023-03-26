@@ -1,0 +1,12 @@
+owner = A13
+base_tax = 2
+base_manpower = 3
+base_production = 1
+culture = swedish
+trade_goods = fish
+religion = catholic
+controller = A13
+is_city = no
+add_core = A13
+discovered_by = western
+hre = yes

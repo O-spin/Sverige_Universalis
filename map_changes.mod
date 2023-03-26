@@ -1,0 +1,18 @@
+name="Sverige Universalis"
+tags={
+	"Map"
+	"Alternative History"
+	"Total Conversion"
+}
+replace_path="common/province_names"
+replace_path="events"
+replace_path="missions"
+replace_path="decisions"
+replace_path="history/diplomacy"
+replace_path="history/wars"
+replace_path="history/provinces"
+replace_path="history/countries"
+picture="thumbnail.png"
+supported_version="1.34.*.*"
+path="C:/Users/Allan/Documents/Paradox Interactive/Europa Universalis IV/mod/map_changes_testV3"
+remote_file_id="2916562607"

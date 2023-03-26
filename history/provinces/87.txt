@@ -1,0 +1,14 @@
+owner = A21
+base_tax = 7
+base_manpower = 5
+base_production = 8
+culture = swedish
+trade_goods = grain
+religion = catholic
+controller = A21
+is_city = no
+center_of_trade = 1
+hre = yes
+add_core = A21
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,12 @@
+owner = A27
+base_tax = 3
+base_manpower = 1
+base_production = 3
+culture = swedish
+trade_goods = livestock
+religion = catholic
+controller = A27
+is_city = no
+add_core = A27
+discovered_by = western
+hre = yes

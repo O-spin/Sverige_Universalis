@@ -1,0 +1,12 @@
+owner = A24
+base_tax = 3
+base_manpower = 3
+base_production = 4
+culture = swedish
+trade_goods = iron
+religion = catholic
+controller = A24
+is_city = no
+add_core = A24
+discovered_by = western
+hre = yes

@@ -1,0 +1,12 @@
+owner = A23
+base_tax = 3
+base_manpower = 5
+base_production = 2
+culture = swedish
+trade_goods = livestock
+religion = catholic
+controller = A23
+is_city = no
+add_core = A23
+discovered_by = western
+hre = yes

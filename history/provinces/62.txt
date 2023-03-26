@@ -1,0 +1,12 @@
+owner = A17
+base_tax = 3
+base_manpower = 2
+base_production = 1
+culture = swedish
+trade_goods = glass
+religion = catholic
+controller = A17
+is_city = no
+add_core = A17
+discovered_by = western
+hre = yes

@@ -1,0 +1,12 @@
+owner = A05
+base_tax = 6
+base_manpower = 5
+base_production = 5
+culture = swedish
+trade_goods = livestock
+religion = catholic
+controller = A05
+is_city = no
+add_core = A05
+discovered_by = western
+hre = yes

@@ -1,0 +1,12 @@
+owner = A08
+base_tax = 3
+base_manpower = 5
+base_production = 3
+culture = norwegian
+trade_goods = fish
+religion = catholic
+controller = A08
+is_city = no
+hre = yes
+add_core = A08
+discovered_by = western

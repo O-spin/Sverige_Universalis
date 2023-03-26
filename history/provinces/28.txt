@@ -1,0 +1,12 @@
+owner = A01
+base_tax = 3
+base_manpower = 4
+base_production = 1
+culture = swedish
+trade_goods = gold
+religion = catholic
+controller = A01
+is_city = no
+add_core = A01
+discovered_by = western
+hre = yes

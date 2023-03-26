@@ -1,0 +1,13 @@
+owner = A07
+base_tax = 5
+base_manpower = 4
+base_production = 6
+culture = swedish
+trade_goods = salt
+religion = catholic
+controller = A07
+is_city = no
+center_of_trade = 1
+add_core = A07
+discovered_by = western
+hre = yes

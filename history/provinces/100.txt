@@ -1,0 +1,14 @@
+owner = A22
+base_tax = 7
+base_manpower = 6
+base_production = 5
+culture = swedish
+trade_goods = cloth
+religion = catholic
+controller = A22
+is_city = no
+center_of_trade = 1
+hre = yes
+add_core = A22
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,27 @@
+#Lappland mission rewards:
+pax_sapponia = {
+	stability_cost_to_declare_war = 3
+	development_cost_modifier = -0.2
+	global_prosperity_growth = 0.1
+	land_morale = -0.1
+	discipline = -0.05
+}
+sapmi_court = {
+	same_culture_advisor_cost = -0.1
+}
+fur_proto_industry = {
+	trade_goods_size = 0.6
+}
+sami_migration = {
+	culture_conversion_cost = -0.25
+}
+sami_unification_zeal = {
+	global_autonomy = -0.05
+	land_morale = 0.15
+}
+national_respectability = {
+	diplomatic_reputation = 1
+}
+tech_import = {
+	technology_cost = -0.1
+}

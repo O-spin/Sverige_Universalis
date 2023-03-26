@@ -1,0 +1,62 @@
+# A province can only belong to one region!
+# random_new_world_region is used for RNW. Must be first in this list.
+scandinavia_region = {
+	areas = {
+		ostra_svealand_area 
+	}
+}
+baltic_sea_region = {
+	areas = {
+		baltic_area 
+	}
+}
+sodra_gotaland_region = {
+	areas = {
+	}
+}
+vastra_gotaland_region = {
+	areas = {
+		sodra_bohuslan_area vastergotland_area dalsland_area goteborg_area boras_area falkoping_area skovde_area lidkoping_area alingsas_area norra_bohuslan_area
+	}
+}
+ostra_gotaland_region = {
+	areas = {
+		ostergotland_area smaland_area oland_area linkoping_area norrkoping_area motala_area 
+	}
+}
+ostra_svealand_region = {
+	areas = {
+		sodermanland_area stockholm_area uppland_area gotland_area nykoping_area eskilstuna_area sodertalje_area skargard_area norrtalje_area sigtuna_area
+		uppsala_area 
+	}
+}
+sydvastra_svealand_region = {
+	areas = {
+		narke_area vastmanland_area varmland_area karlstad_area arvika_area torsby_area lindesberg_area vasteras_area 
+	}
+}
+nedre_norrland_region = {
+	areas = {
+		halsingland_area gastrikland_area harjedalen_area medelpad_area jamtland_area angermanland_area gavle_area 
+	}
+}
+ovre_norrland_region = {
+	areas = {
+		vasterbotten_area sodra_lappland_area norrbotten_area lulea_area torne_area norra_lappland_area 
+	}
+}
+skaneland_region = {
+	areas = {
+		blekinge_area skane_area halland_area kristianstad_area angelholm_area helsingborg_area lund_area ystad_area malmo_area 
+	}
+}
+smaland_region = {
+	areas = {
+		vaxjo_area kalmar_area vastervik_area jonkoping_area varnamo 
+	}
+}
+nordvastra_svealand_region = {
+	areas = {
+		dalarna_area borlange_area falun_area mora_area sala_area 
+	}
+}

@@ -1,0 +1,13 @@
+owner = A09
+base_tax = 6
+base_manpower = 5
+base_production = 3
+culture = swedish
+trade_goods = wool
+religion = catholic
+controller = A09
+is_city = no
+center_of_trade = 1
+add_core = A09
+discovered_by = western
+hre = yes

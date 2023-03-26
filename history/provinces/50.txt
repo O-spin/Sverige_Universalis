@@ -1,0 +1,12 @@
+owner = A12
+base_tax = 2
+base_manpower = 3
+base_production = 1
+culture = norwegian
+trade_goods = livestock
+religion = catholic
+controller = A12
+is_city = no
+hre = yes
+add_core = A12
+discovered_by = western

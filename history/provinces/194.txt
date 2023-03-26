@@ -1,0 +1,12 @@
+owner = A04
+base_tax = 3
+base_manpower = 3
+base_production = 1
+culture = swedish
+trade_goods = livestock
+religion = catholic
+controller = A04
+is_city = no
+add_core = A04
+discovered_by = western
+hre = yes

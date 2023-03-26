@@ -1,0 +1,13 @@
+owner = A14
+base_tax = 5
+base_manpower = 2
+base_production = 6
+culture = swedish
+trade_goods = gold
+religion = catholic
+controller = A14
+is_city = no
+center_of_trade = 1
+add_core = A14
+discovered_by = western
+hre = yes

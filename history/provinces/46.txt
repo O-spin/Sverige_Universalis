@@ -1,0 +1,12 @@
+owner = A12
+base_tax = 2
+base_manpower = 1
+base_production = 1
+culture = swedish
+trade_goods = naval_supplies
+religion = catholic
+controller = A12
+is_city = no
+add_core = A12
+discovered_by = western
+hre = yes

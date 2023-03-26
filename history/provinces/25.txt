@@ -1,0 +1,12 @@
+owner = A13
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = finnish
+trade_goods = livestock
+religion = catholic
+controller = A13
+is_city = no
+hre = yes
+add_core = A13
+discovered_by = western

@@ -1,0 +1,17 @@
+owner = A20
+base_tax = 10
+base_manpower = 10
+base_production = 7
+culture = swedish
+trade_goods = cloth
+religion = catholic
+controller = A20
+is_city = no
+center_of_trade = 1
+hre = yes
+add_core = A20
+add_core = SWE
+add_claim = A19
+add_claim = A23
+discovered_by = western
+fort_15th = yes

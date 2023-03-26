@@ -1,0 +1,12 @@
+owner = A11
+base_tax = 2
+base_manpower = 1
+base_production = 3
+culture = norwegian
+trade_goods = fur
+religion = catholic
+controller = A11
+is_city = no
+hre = yes
+add_core = A11
+discovered_by = western

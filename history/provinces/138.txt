@@ -1,0 +1,13 @@
+owner = A20
+base_tax = 4
+base_manpower = 2
+base_production = 3
+culture = swedish
+trade_goods = fish
+religion = catholic
+controller = A20
+is_city = no
+hre = yes
+add_core = A20
+add_claim = A23
+discovered_by = western

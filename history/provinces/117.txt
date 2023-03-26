@@ -1,0 +1,12 @@
+owner = A09
+base_tax = 3
+base_manpower = 4
+base_production = 1
+culture = swedish
+trade_goods = paper
+religion = catholic
+controller = A09
+is_city = no
+add_core = A09
+discovered_by = western
+hre = yes

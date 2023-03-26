@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+unit_type = western
+religion = catholic
+capital = 180
+primary_culture = swedish
+elector = yes

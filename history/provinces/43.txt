@@ -1,0 +1,13 @@
+owner = A16
+base_tax = 6
+base_manpower = 5
+base_production = 5
+culture = swedish
+trade_goods = paper
+religion = catholic
+controller = A16
+is_city = no
+center_of_trade = 1
+add_core = A16
+discovered_by = western
+hre = yes

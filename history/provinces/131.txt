@@ -1,0 +1,13 @@
+owner = A20
+base_tax = 3
+base_manpower = 4
+base_production = 1
+culture = swedish
+trade_goods = grain
+religion = catholic
+controller = A20
+is_city = no
+hre = yes
+add_core = A20
+add_claim = A19
+discovered_by = western

@@ -1,0 +1,12 @@
+owner = A26
+base_tax = 2
+base_manpower = 1
+base_production = 2
+culture = swedish
+trade_goods = grain
+religion = catholic
+controller = A26
+is_city = no
+add_core = A26
+discovered_by = western
+hre = yes

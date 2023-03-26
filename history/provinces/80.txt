@@ -1,0 +1,12 @@
+owner = A19
+base_tax = 3
+base_manpower = 4
+base_production = 3
+culture = swedish
+trade_goods = iron
+religion = catholic
+controller = A19
+is_city = no
+add_core = A19
+discovered_by = western
+hre = yes

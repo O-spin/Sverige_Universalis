@@ -1,0 +1,12 @@
+owner = A01
+base_tax = 2
+base_manpower = 1
+base_production = 3
+culture = sapmi
+trade_goods = fur
+religion = catholic
+controller = A01
+is_city = no
+add_core = A01
+discovered_by = western
+hre = yes

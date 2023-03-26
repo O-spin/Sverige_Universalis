@@ -1,0 +1,422 @@
+Lapplanddev = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = A01
+	}
+
+	Develop_Capital = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			capital_scope = {
+				development = 15
+			}
+		}
+		effect = {
+			capital_scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				change_culture = sapmi
+			}
+		}
+	}
+	A_Sapmi_Court = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { Develop_Capital }
+		trigger = { 
+			AND = {
+				employed_advisor = {
+					category = ADM
+					culture = sapmi
+				}
+				employed_advisor = {
+					category = DIP
+					culture = sapmi
+				}
+				employed_advisor = {
+					category = MIL
+					culture = sapmi
+				}
+			}
+		}
+		effect = { 
+			change_primary_culture = sapmi
+			set_ruler_culture = sapmi
+			add_country_modifier = {
+				name = sapmi_court
+				duration = 9125 #25 years
+			}
+		}
+	}
+	Proto_Industrialization = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { A_Sapmi_Court }
+		trigger = { 
+			AND = {
+				any_core_province = {
+					AND = {
+						has_building = workshop
+						trade_goods = fur
+						base_production = 7
+					}
+				}
+				treasury = 100
+				adm_power = 100
+			}
+		}
+		effect = {
+			every_core_province = {
+				IF = {
+					limit = {
+						AND = {
+							has_building = workshop
+							trade_goods = fur
+							base_production = 7
+						}
+					}
+					add_province_modifier = {
+						name = fur_proto_industry
+						duration = -1
+						#desc
+					}
+				}
+			}
+			change_price = {
+				trade_goods = fur
+				value = 0.5
+				duration = -1
+			}
+			add_treasury = -100
+			add_adm_power = -100
+		}
+	}
+	Establishing_Sametinget = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { Proto_Industrialization }
+		trigger = {
+			AND = {
+				dominant_culture = sapmi
+				norra_lappland_area = {
+					type = all
+					culture = sapmi
+				}
+				sodra_lappland_area = {
+					type = all
+					culture = sapmi
+				}
+			}
+		}
+		effect = {
+			change_government = republic
+			add_government_reform = sametinget
+		}
+	}
+}
+
+lapplandmil = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = A01
+	}
+
+	Rally_Populace = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			AND = {
+				army_size_percentage = 1
+				capital_scope = {
+					culture = sapmi
+				}
+			}
+		}
+		effect = {
+			jamtland_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	Unite_our_peoples = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { Rally_Populace }
+		provinces_to_highlight = {
+			jamtland_area = {
+				NOT = {country_or_non_sovereign_subject_holds = ROOT}
+			}
+		}
+		trigger = {
+			jamtland_area = {
+				type = all 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_casus_belli = {
+				target = A11 #härjedalen
+				type = cb_vassalize_mission
+				months = 60
+			}
+		}
+	}
+	Deal_with_harjedalen = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { Unite_our_peoples Integrate_the_swedish_elite Ally_with_harjedalen }
+		trigger = { 
+			OR = {
+				A11 = {
+					vassal_of = ROOT
+				}
+				AND = {
+					NOT = {exists = A11}
+					52 = {
+						country_or_subject_holds = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			11 = {add_permanent_claim = ROOT}
+			15 = {add_permanent_claim = ROOT}
+			16 = {add_permanent_claim = ROOT}
+			20 = {add_permanent_claim = ROOT}
+			21 = {add_permanent_claim = ROOT}
+			22 = {add_permanent_claim = ROOT}
+			23 = {add_permanent_claim = ROOT}
+			25 = {add_permanent_claim = ROOT}
+			29 = {add_permanent_claim = ROOT}
+			39 = {add_permanent_claim = ROOT}
+		}
+	}
+	Sami_of_Norrland = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { Deal_with_harjedalen }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 11
+				province_id = 15
+				province_id = 16
+				province_id = 20
+				province_id = 21
+				province_id = 22
+				province_id = 23
+				province_id = 25
+				province_id = 29
+				province_id = 39
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		trigger = {
+			owns_core_province = 11
+			owns_core_province = 15
+			owns_core_province = 16
+			owns_core_province = 20
+			owns_core_province = 21
+			owns_core_province = 22
+			owns_core_province = 23
+			owns_core_province = 25
+			owns_core_province = 29
+			owns_core_province = 39
+		}
+		effect = {
+			add_country_modifier = {
+				name = sami_migration
+				duration = 3650 #10 years
+			}
+		}
+	}
+	Unified_Sapmi = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { Sami_of_Norrland }
+		trigger = {
+			norra_lappland_area = {
+				type = all
+				culture = sapmi
+			}
+			sodra_lappland_area = {
+				type = all
+				culture = sapmi
+			}
+			jamtland_area = {
+				type = all
+				culture = sapmi
+			}
+			52 = {
+				culture = sapmi
+			}
+			ovre_norrland_region = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = sami_unification_zeal
+				duration = 3650 # 10 years
+			}
+		}
+	}
+	Era_of_Peace = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { Unified_Sapmi Establishing_Sametinget }
+		trigger = {
+			all_owned_province = {
+				AND = {
+					NOT = {unrest = 0}
+					unrest = -70
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = pax_sapponia
+				duration = 9125 #25 years
+				#desc = ...
+			}
+		}
+	}
+}
+
+lapplandmil2 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = A01
+	}
+
+	Integrate_the_swedish_elite = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { Rally_Populace }
+		provinces_to_highlight = {
+			AND = {
+				OR = {
+					area=norra_lappland_area
+					area=sodra_lappland_area
+				}
+				NOT = {culture = sapmi}
+			}
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 7
+				AND = {
+					OR = {
+						area=norra_lappland_area
+						area=sodra_lappland_area
+					}
+					culture = sapmi
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				IF = {
+					limit = {
+						AND = {
+							culture = sapmi
+							OR = {
+								area=norra_lappland_area
+								area=sodra_lappland_area
+							}
+						}
+					}
+					add_base_manpower = 2
+				}
+			}
+		}
+	}
+}
+
+lapplanddip = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = A01
+	}
+
+	National_Respectability = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			is_in_deficit = no
+			OR = {
+				diplomat = 2
+				statesman = 2
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = national_respectability
+				duration = 3650 #10 years
+			}
+		}
+	}
+	Ally_with_harjedalen = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { National_Respectability }
+		trigger = {
+			OR = {
+				alliance_with = A11 # härjedalen
+				NOT = {exists = A11}
+			}
+		}
+		effect = {
+			add_historical_friend = A11
+			A11 = {
+				add_historical_friend = ROOT
+			}
+		}
+	}
+	Guarantee_Independence = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { Ally_with_harjedalen }
+		trigger = {
+			any_ally = {
+				total_development = 300
+			}
+		}
+		effect = {
+			add_dip_power = 50
+		}
+	}
+	Technological_Imports = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { Guarantee_Independence }
+		trigger = {
+			any_ally = {
+				tech_difference = 3
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = tech_import
+				duration = 3650 #10 years
+			}
+		}
+	}
+}
+

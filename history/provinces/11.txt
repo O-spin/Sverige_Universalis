@@ -1,0 +1,12 @@
+owner = A13
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = sapmi
+trade_goods = fur
+religion = catholic
+controller = A13
+is_city = no
+add_core = A13
+discovered_by = western
+hre = yes

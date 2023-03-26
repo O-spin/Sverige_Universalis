@@ -1,0 +1,20 @@
+sametinget = {
+	icon = "people_walking"
+	allow_normal_conversion = no
+	duration = 4
+	potential = {
+		has_reform = sametinget
+	}
+	modifiers = {
+		global_unrest = -1
+		culture_conversion_cost = -0.1
+		manpower_in_own_culture_provinces = 0.1
+	}
+
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+
+
+}

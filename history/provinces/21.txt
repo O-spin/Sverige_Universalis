@@ -1,0 +1,12 @@
+owner = A13
+base_tax = 4
+base_manpower = 3
+base_production = 3
+culture = swedish
+trade_goods = paper
+religion = catholic
+controller = A13
+is_city = no
+add_core = A13
+discovered_by = western
+hre = yes

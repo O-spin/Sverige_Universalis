@@ -1,0 +1,13 @@
+owner = A07
+base_tax = 4
+base_manpower = 6
+base_production = 3
+culture = swedish
+trade_goods = grain
+religion = catholic
+controller = A07
+is_city = no
+hre = yes
+add_core = A07
+discovered_by = western
+fort_15th = yes

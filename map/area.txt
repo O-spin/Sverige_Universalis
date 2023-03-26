@@ -1,0 +1,203 @@
+# A province can only belong to one area!
+#Sea Areas:
+#No restriction on size.
+baltic_area = {
+	1 299 298 297 296 295 294 300 3 4
+	5 6 7 2 
+}
+#Land Areas:
+# A land area is 3 - 10 provinces
+ostra_svealand_area = { #4
+
+}
+sodra_lappland_area = {
+	27 36 37 35 28 24 26 
+}
+norrbotten_area = {
+}
+vasterbotten_area = {
+	23 22 30 32 29 31 
+}
+angermanland_area = {
+	34 33 38 39 41 42 
+}
+medelpad_area = {
+	40 43 44 52 
+}
+jamtland_area = {
+	46 47 45 48 49 51 50 
+}
+harjedalen_area = {
+}
+halsingland_area = {
+	53 54 55 56 61 62 
+}
+gastrikland_area = {
+}
+dalarna_area = {
+}
+uppland_area = {
+}
+sodermanland_area = {
+}
+ostergotland_area = {
+}
+narke_area = {
+	104 107 101 100 103 102 
+}
+varmland_area = {
+}
+dalsland_area = {
+	270 271 268 269 275 267 
+}
+sodra_bohuslan_area = {
+	279 282 281 280 292 
+}
+halland_area = {
+	197 196 193 194 
+}
+skane_area = {
+}
+blekinge_area = {
+	183 184 182 181 180 
+}
+oland_area = {
+	178 177 
+}
+gotland_area = {
+	179 
+}
+vastergotland_area = {
+}
+smaland_area = {
+}
+vastmanland_area = {
+}
+stockholm_area = {
+	140 128 130 129 131 136 
+}
+malmo_area = {
+	207 208 206 205 209 227 
+}
+lund_area = {
+	225 224 226 204 231 
+}
+ystad_area = {
+	211 212 229 228 210 230 
+}
+helsingborg_area = {
+	201 203 223 222 221 202 
+}
+kristianstad_area = {
+	213 214 216 215 217 
+}
+angelholm_area = {
+	200 199 218 219 220 
+}
+kalmar_area = {
+	171 172 170 174 175 173 
+}
+vaxjo_area = {
+	188 187 186 185 192 189 236 
+}
+jonkoping_area = {
+	238 237 233 232 239 163 
+}
+vastervik_area = {
+	168 301 169 176 234 235 
+}
+varnamo = {
+	240 190 191 195 242 241 
+}
+linkoping_area = {
+	167 160 161 162 166 
+}
+motala_area = {
+	165 155 164 
+}
+norrkoping_area = {
+	156 157 159 158 
+}
+goteborg_area = {
+	288 293 198 287 289 290 286 
+}
+boras_area = {
+	263 262 261 260 259 285 
+}
+alingsas_area = {
+	284 291 283 266 265 264 
+}
+lidkoping_area = {
+	256 257 258 254 255 
+}
+skovde_area = {
+	252 251 250 249 247 248 
+}
+falkoping_area = {
+	253 245 244 243 246 
+}
+norra_bohuslan_area = {
+	272 273 274 278 277 276 
+}
+eskilstuna_area = {
+	153 146 154 152 95 94 
+}
+nykoping_area = {
+	149 150 151 147 148 
+}
+karlstad_area = {
+	8 302 108 119 303 109 105 106 
+}
+torsby_area = {
+	112 111 113 304 110 
+}
+arvika_area = {
+	114 118 117 116 115 
+}
+vasteras_area = {
+	87 88 93 92 89 
+}
+sala_area = {
+	86 90 91 72 
+}
+lindesberg_area = {
+	96 97 98 99 
+}
+uppsala_area = {
+	81 85 84 83 82 80 79 
+}
+gavle_area = {
+	57 78 58 60 59 
+}
+norrtalje_area = {
+	120 122 123 132 
+}
+sigtuna_area = {
+	121 134 133 135 
+}
+sodertalje_area = {
+	144 145 143 141 142 
+}
+skargard_area = {
+	127 125 124 137 126 138 139 
+}
+mora_area = {
+	64 67 63 66 65 
+}
+falun_area = {
+	70 69 68 75 
+}
+borlange_area = {
+	74 73 77 76 71 
+}
+pitea_area = {
+}
+lulea_area = {
+	15 21 20 16 
+}
+torne_area = {
+	12 13 14 25 11 
+}
+norra_lappland_area = {
+	10 9 17 19 18 
+}

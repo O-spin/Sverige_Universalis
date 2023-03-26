@@ -1,0 +1,14 @@
+owner = A27
+base_tax = 3
+base_manpower = 2
+base_production = 4
+culture = swedish
+trade_goods = livestock
+religion = catholic
+controller = A27
+is_city = no
+center_of_trade = 1
+hre = yes
+add_core = A27
+discovered_by = western
+fort_15th = yes

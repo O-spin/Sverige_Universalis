@@ -1,0 +1,21 @@
+# Harjedalen idea
+capital_flourishing_metropole = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		has_idea = a11_capital_flourishing_metropole
+	}
+	
+	local_development_cost_modifier = -0.65	
+
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}	
+}

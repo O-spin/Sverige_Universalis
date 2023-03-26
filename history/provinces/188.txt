@@ -1,0 +1,14 @@
+owner = A26
+base_tax = 6
+base_manpower = 4
+base_production = 6
+culture = swedish
+trade_goods = livestock
+religion = catholic
+controller = A26
+is_city = no
+center_of_trade = 1
+hre = yes
+add_core = A26
+discovered_by = western
+fort_15th = yes

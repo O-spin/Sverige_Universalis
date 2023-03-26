@@ -1,0 +1,12 @@
+owner = A10
+base_tax = 3
+base_manpower = 2
+base_production = 3
+culture = swedish
+trade_goods = livestock
+religion = catholic
+controller = A10
+is_city = no
+add_core = A10
+discovered_by = western
+hre = yes
