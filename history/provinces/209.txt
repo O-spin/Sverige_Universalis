@@ -10,3 +10,4 @@ is_city = no
 hre = yes
 add_core = A03
 discovered_by = western
+center_of_trade = 1

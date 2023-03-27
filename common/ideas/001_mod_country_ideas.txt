@@ -1038,7 +1038,46 @@ a24_ideas = {
     }
 }
 
-a25_ideas = { #Småland
+GOT_ideas = {
+	start = {
+		privateer_efficiency = 0.15
+		core_creation = -0.15
+	}
+	
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	
+	trigger = {
+		tag = a25
+	}
+	free = yes
+	
+	rebuild_visby = {
+		development_cost = -0.1
+	}
+	invite_mercenaries_to_visby = {
+		merc_maintenance_modifier = -0.15
+	}
+	expand_visby_dockyard = {
+		global_ship_cost = -0.1
+	}
+	rebuild_the_trade = {
+		global_trade_power = 0.1
+	}
+	gutnish_merchant_adventurers = {
+		merchants = 1
+	}
+	gutnish_merchant_navy = {
+		naval_forcelimit_modifier = 0.33
+	}
+	found_visby_bank = {
+		interest = -0.5
+	}
+}
+
+
+a26_ideas = { #Småland
 	start = {
 		global_spy_defence = 0.25
 		global_tax_modifier = 0.3
@@ -1049,40 +1088,85 @@ a25_ideas = { #Småland
 	}
 
 	trigger = {
-		tag = A25
+		tag = A26
 	}
 	free = yes
 	
-	a25_kronobergs_slottsruin = {
+	a26_kronobergs_slottsruin = {
 		defensiveness = 0.15
 	}
 	
-	a25_kalmar_av_union = {
-		liberty_desire = -0.2
+	a26_glasriket = {
+		global_trade_goods_size_modifier = 0.1
 	}
 
-	a25_runkestenar = {
+	a26_runkestenar = {
 		development_cost = 0.1
 		diplomatic_reputation = 1
 	}
 	
-	a25_smalands_husarregemente = {
+	a26_smalands_husarregemente = {
 		cavalry_power = 0.3
 		can_recruit_hussars = yes
 	}
 
-	a25_emigrantutvandringen = {
+	a26_emigrantutvandringen = {
 		development_cost = -0.2
 	}
 
-	a25_john_bauer = {
+	a26_john_bauer = {
 		prestige = 1
 	}
 
-	a25_snala_handelsman = {
+	a26_snala_handelsman = {
 		trade_efficiency = 0.5
 		improve_relation_modifier = -0.1
 		ae_impact = 0.1
 	}
 
+}
+
+a27_ideas = { #Öland
+	start = {
+		navy_tradition = 1
+		global_trade_goods_size_modifier = 0.10
+	}
+
+	bonus = {
+		naval_forcelimit_modifier = 0.15
+	}
+
+	trigger = {
+		tag = A27
+	}
+	free = yes
+	
+	a27_kalmarforbjudet = {
+		can_not_send_merchants = yes
+		global_own_trade_power = 0.3
+	}
+
+	a27_alvaret = {
+		hostile_attrition = 1
+	}
+
+	a27_death_to_timber = {
+		naval_maintenance_modifier = -0.2
+	}
+
+	a27_birdwatching = {
+		advisor_cost = -0.1
+	}
+
+	a27_mörbylånga_kyrka = {
+		global_missionary_strength = 0.02
+	}
+
+	a27_windmills = {
+		production_efficiency = 0.2
+	}
+
+	a27_långe_jan = {
+		global_naval_engagement_modifier = 0.1
+	}
 }
