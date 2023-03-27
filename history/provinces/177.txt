@@ -7,7 +7,6 @@ trade_goods = livestock
 religion = catholic
 controller = A27
 is_city = no
-center_of_trade = 1
 hre = yes
 add_core = A27
 discovered_by = western
